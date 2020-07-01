@@ -1,7 +1,7 @@
 html, body {
     width: 100%;
 	height: 100%;
-    overflow: hidden;
+    overflow-x: none;
 }
 
 .sections {
@@ -165,13 +165,13 @@ div {
 }
 
 .i1 {
-    background-image: url(../img/meiosis.png);
-    background-size: 600px 377px;
+    background-image: url(../img/tubule.jpg);
+    background-size: 500px 595px;
 }
 
 .i2 {
-    background-image: url(../img/tubule.jpg);
-    background-size: 500px 595px;
+    background-image: url(../img/meiosis.png);
+    background-size: 600px 377px;
 }
 
 .highlight {
