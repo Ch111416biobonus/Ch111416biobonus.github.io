@@ -1,0 +1,174 @@
+html, body {
+    width: 100%;
+	height: 100%;
+    overflow-x: none;
+}
+
+.sections {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+    overflow-x: none;
+    position: relative;
+}
+
+.scroll {
+	overflow-y: scroll;
+    text-align: center;
+}
+
+.p2 {
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.back {
+    background-image: url("https://thumbs.gfycat.com/MagnificentKeyAltiplanochinchillamouse-size_restricted.gif");
+    background-size: 100%;
+    /* background-image: url(../img/sperm.gif); */
+    /* background-image: url("https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1686,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1586731315/200409-coronavirus-sperm-tease_bhdrob"); */
+}
+
+.section .col-10 {
+    color: white;
+    margin: auto;
+    height: auto;
+}
+
+.row {
+    margin-left: 0;
+}
+
+.section h1 {
+    font-size: 108px;
+    /* letter-spacing: 20px; */
+}
+
+.p3 {
+    margin-top: 1000px;
+}
+
+.overlay {
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    /* opacity: 0.9; */
+    display: none;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.circle {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    display: inline;
+    position: absolute;
+}
+
+.c1 {
+    margin-left: 60.5%;
+    margin-top: 38%;
+}
+
+.circle p {
+    font-size: 24px;
+}
+
+.remove {
+    display: none;
+    text-align: right;
+    font-size: 24px;
+    z-index: 10;
+    position: absolute;
+    color: white;
+    margin-left: 98%;
+}
+
+.circle:hover {
+    background-color: gray;
+}
+
+.main {
+    height: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+    z-index: -1;
+}
+
+.title h1 {
+    margin-top: -20px;
+}
+
+.title {
+    display: none;
+    width: 100%;
+}
+
+.rounded {
+    width: 100%;
+}
+
+div {
+    /* border: 1px solid red; */
+}
+
+.figure {
+    /* margin: auto; */
+    position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  /* width: auto; */
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.bottom {
+  margin: 0;
+  position: absolute;
+  /* width: auto; */
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -90%);
+  transform: translate(-50%, -90%);
+  color: white;
+  text-align: center;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 20;
+}
+
+.i1 {
+    background-image: url(../img/meiosis.png);
+    background-size: 600px 377px;
+}
+
+.i2 {
+    background-image: url(../img/tubule.jpg);
+    background-size: 500px 595px;
+}
+
+.highlight {
+    background-color: #343a40;
+    color: white;
+}
