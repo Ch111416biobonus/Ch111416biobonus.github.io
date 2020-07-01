@@ -10,11 +10,17 @@ html, body {
 	overflow: hidden;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .section {
 	width: 100%;
 	height: 100%;
     overflow-x: none;
     position: relative;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .scroll {
