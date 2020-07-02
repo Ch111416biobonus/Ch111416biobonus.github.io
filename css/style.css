@@ -55,10 +55,6 @@ html, body {
     /* letter-spacing: 20px; */
 }
 
-.p3 {
-    margin-top: 1000px;
-}
-
 .overlay {
     width: 0%;
     height: 100%;
@@ -72,22 +68,36 @@ html, body {
 
 .circle {
     text-align: center;
-    background-color: black;
     color: white;
     border-radius: 50px;
-    width: 36px;
-    height: 36px;
-    display: inline;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
 }
 
 .c1 {
-    margin-left: 60.5%;
-    margin-top: 38%;
+    top: 80%;
+    left: 68%;
 }
 
-.circle p {
-    font-size: 24px;
+.c2 {
+    top: 71%;
+    left: 61.5%;
+}
+
+.c3 {
+    top: 31%;
+    left: 65%;
+}
+
+.c4 {
+    top: 28%;
+    left: 35%;
+}
+
+.c5 {
+    top: 43%;
+    left: 44%;
 }
 
 .remove {
@@ -100,14 +110,10 @@ html, body {
     margin-left: 98%;
 }
 
-.circle:hover {
-    background-color: gray;
-}
-
 .main {
-    height: 100%;
+    height: 100vh;
     position: relative;
-    display: block;
+    /* display: block; */
     margin: auto;
     z-index: -1;
 }
@@ -174,7 +180,23 @@ div {
     background-size: 600px 377px;
 }
 
-.highlight {
-    background-color: #343a40;
-    color: white;
+.i3 {
+    background-image: url(../img/epididymis.jpg);
+    background-size: 488px 600px;
+}
+
+.i4 {
+    background-image: url(../img/sperm.png);
+    background-size: 800px 233px;
+}
+
+.i5 {
+    background-image: url(../img/vesicle.png);
+}
+
+.icont {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    margin: auto;
 }
