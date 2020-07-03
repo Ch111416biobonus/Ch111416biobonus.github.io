@@ -76,28 +76,28 @@ html, body {
 }
 
 .c1 {
-    top: 80%;
-    left: 68%;
+    top: 68%;
+    left: 61%;
 }
 
 .c2 {
-    top: 71%;
-    left: 61.5%;
+    top: 60%;
+    left: 56%;
 }
 
 .c3 {
-    top: 31%;
-    left: 65%;
+    top: 43%;
+    left: 60%;
 }
 
 .c4 {
-    top: 28%;
-    left: 35%;
+    top: 36%;
+    left: 37%;
 }
 
 .c5 {
-    top: 43%;
-    left: 44%;
+    top: 45%;
+    left: 47%;
 }
 
 .remove {
@@ -194,9 +194,13 @@ div {
     background-image: url(../img/vesicle.png);
 }
 
+.i6 {
+    background-image: url(../img/prostate.jpg)
+}
+
 .icont {
     position: relative;
     width: 100%;
-    max-width: 60%;
+    max-width: 46%;
     margin: auto;
 }
