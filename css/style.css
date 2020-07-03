@@ -76,28 +76,33 @@ html, body {
 }
 
 .c1 {
-    top: 68%;
-    left: 61%;
+    top: 65%;
+    left: 61.5%;
 }
 
 .c2 {
-    top: 60%;
-    left: 56%;
+    top: 57%;
+    left: 57%;
 }
 
 .c3 {
-    top: 43%;
-    left: 60%;
+    top: 34%;
+    left: 65%;
 }
 
 .c4 {
-    top: 36%;
+    top: 29%;
     left: 37%;
 }
 
 .c5 {
-    top: 45%;
-    left: 47%;
+    top: 40%;
+    left: 48%;
+}
+
+.c6 {
+    top: 58%;
+    left: 76%;
 }
 
 .remove {
@@ -198,9 +203,13 @@ div {
     background-image: url(../img/prostate.jpg)
 }
 
+.i7 {
+    background-image: url(../img/penis.png)
+}
+
 .icont {
     position: relative;
     width: 100%;
-    max-width: 46%;
+    max-width: 51%;
     margin: auto;
 }

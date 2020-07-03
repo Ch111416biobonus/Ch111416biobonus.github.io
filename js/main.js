@@ -53,6 +53,16 @@ $(document).ready(function() {
           $(".o5 .title").css("display", "block");
       }, 1200);
   });
+  $(".c6").click(function() {
+      $(".o6").css("display", "block");
+      $(".remove").css("display", "block");
+      $(".o6").animate({
+          width: "100%",
+      }, 1000);
+      setTimeout(function() {
+          $(".o6 .title").css("display", "block");
+      }, 1200);
+  });
   $(".remove").click(function() {
       location.reload();
   });
